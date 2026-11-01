@@ -1,10 +1,10 @@
 # notebook
 
-我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 30 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
+我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 35 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
 
-![videos](https://img.shields.io/badge/视频-30条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--01-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
+![videos](https://img.shields.io/badge/视频-35条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--01-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
 
-**一句话证据**：30 条视频的时长全部由播放器实测；第二批 20 条里，有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
+**一句话证据**：35 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
 
 ## 目录
 
@@ -57,6 +57,14 @@
 - [视频 28｜Claude Code in 20 Minutes: Build a Real App (and Catch Its Bugs)（Inside IT）](youtube-agent-notes-26-30.md#28-claude-code-in-20-minutes-build-a-real-app-and-catch-its-bugs) — 发布 2026-10-24
 - [视频 29｜How to Build Multi AI Agents with Langgraph（Kenny Liao）](youtube-agent-notes-26-30.md#29-how-to-build-multi-ai-agents-with-langgraph) — 发布 2025-09-27
 - [视频 30｜How to Build Agents That Improve Over Time（Harrison Chase）](youtube-agent-notes-26-30.md#30-how-to-build-agents-that-improve-over-time-model-harness-context) — 发布 2026-10-28
+
+### 视频 31–35 — [youtube-agent-notes-31-35.md](youtube-agent-notes-31-35.md)
+
+- [视频 31｜OpenAI Agents SDK 三级实作（The AI Lifestyle）](youtube-agent-notes-31-35.md#31-master-openais-agents-sdk-in-just-25-minutes--build-powerful-agentic-ai-apps-with-streamlit) — 发布 2025-03-17
+- [视频 32｜smolagents 的 CodeAgent 与 agentic RAG（Prompt Engineering）](youtube-agent-notes-31-35.md#32-smolagents-a-smol-library-to-build-agents) — 发布 2025-01-02
+- [视频 33｜CrewAI 搭四人工程团队（PlayOwnAi）](youtube-agent-notes-31-35.md#33-ep6-build-an-ai-engineering-team-with-crewai--multi-agent-system-in-python) — 发布 2026-01-17
+- [视频 34｜AutoGen 入门（Simplilearn）](youtube-agent-notes-31-35.md#34-autogen-tutorial-for-beginners-2026--microsoft-autogen-tutorial--autogen-studio--simplilearn) — 发布 2026-03-09
+- [视频 35｜Google ADK 一小时全链路（The AI Lifestyle）](youtube-agent-notes-31-35.md#35-master-googles-agents-development-kit-adk-in-60-mins-build-production-agentic-workflows-today) — 发布 2025-04-17
 
 ## 每条笔记的结构
 
