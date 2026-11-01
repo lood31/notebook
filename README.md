@@ -1,10 +1,10 @@
 # notebook
 
-我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 35 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
+我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 40 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
 
-![videos](https://img.shields.io/badge/视频-35条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--01-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
+![videos](https://img.shields.io/badge/视频-40条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--01-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
 
-**一句话证据**：35 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
+**一句话证据**：40 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径；第二组里 JARVIS 仓库的人写测试同样倒在导入上——第一行就把常量名拼错。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
 
 ## 目录
 
@@ -65,6 +65,14 @@
 - [视频 33｜CrewAI 搭四人工程团队（PlayOwnAi）](youtube-agent-notes-31-35.md#33-ep6-build-an-ai-engineering-team-with-crewai--multi-agent-system-in-python) — 发布 2026-01-17
 - [视频 34｜AutoGen 入门（Simplilearn）](youtube-agent-notes-31-35.md#34-autogen-tutorial-for-beginners-2026--microsoft-autogen-tutorial--autogen-studio--simplilearn) — 发布 2026-03-09
 - [视频 35｜Google ADK 一小时全链路（The AI Lifestyle）](youtube-agent-notes-31-35.md#35-master-googles-agents-development-kit-adk-in-60-mins-build-production-agentic-workflows-today) — 发布 2025-04-17
+
+### 视频 36–40 — [youtube-agent-notes-36-40.md](youtube-agent-notes-36-40.md)
+
+- [视频 36｜Vercel AI SDK 客服 agent：先裸写 RAG 再换 SDK 抽象（freeCodeCamp）](youtube-agent-notes-36-40.md#36-build-a-support-agent-with-vercel-ai-sdk--full-tutorial) — 发布 2025-12-24
+- [视频 37｜LiveKit + Gemini 实时模型搭 JARVIS 语音 agent（Thanh-y David Nguyen）](youtube-agent-notes-36-40.md#37-how-to-build-a-jarvis-ai-voice-agent-for-free--full-livekit-tutorial-2026) — 发布 2026-09-13
+- [视频 38｜Browser Use 入门：接管本机浏览器与结构化抓取（Tech With Tim）](youtube-agent-notes-36-40.md#38-browser-use-this-new-ai-agent-can-do-anything-full-ai-scraping-tutorial) — 发布 2025-03-23
+- [视频 39｜A2A 协议 v1.0 逐步拆解（AI Build Along）](youtube-agent-notes-36-40.md#39-a2a-vs-mcp-explained-the-a2a-protocol-v10-step-by-step-real-messages) — 发布 2026-10-18
+- [视频 40｜DSPy 自动提示工程：七级叠加实验（Trelis Research）](youtube-agent-notes-36-40.md#40-automated-prompt-engineering-with-dspy) — 发布 2024-09-12
 
 ## 每条笔记的结构
 
