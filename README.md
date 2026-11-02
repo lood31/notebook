@@ -1,10 +1,10 @@
 # notebook
 
-我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 40 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
+我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 50 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
 
-![videos](https://img.shields.io/badge/视频-40条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--01-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
+![videos](https://img.shields.io/badge/视频-50条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--01-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
 
-**一句话证据**：40 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径；第二组里 JARVIS 仓库的人写测试同样倒在导入上——第一行就把常量名拼错。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
+**一句话证据**：50 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径；第二组里 JARVIS 仓库的人写测试同样倒在导入上——第一行就把常量名拼错。第三组把一条 2024 年的 Mem0 教程与现行官方文档对照：视频里「嵌入离不开 OpenAI」的核心限制如今已被官方修复，教程标题写的「本地」在当时只成立一半；另一堂 LangSmith 评估课则被配套仓库救了回来——画面里读不清的代码、连数据源是哪三篇博客，都由仓库原文逐项解明。第四组里 Pydantic 的两个模型类被拿来在本地按现行版本实跑：坏输入与总额对不上的发票都被正确拦下；一条只有动画素描的 AI 生成「部署教程」则被官方现行 compose 文件反向核对——流程属实、画面不作数，全部写进笔记。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
 
 ## 目录
 
@@ -74,6 +74,39 @@
 - [视频 39｜A2A 协议 v1.0 逐步拆解（AI Build Along）](youtube-agent-notes-36-40.md#39-a2a-vs-mcp-explained-the-a2a-protocol-v10-step-by-step-real-messages) — 发布 2026-10-18
 - [视频 40｜DSPy 自动提示工程：七级叠加实验（Trelis Research）](youtube-agent-notes-36-40.md#40-automated-prompt-engineering-with-dspy) — 发布 2024-09-12
 
+### 视频 41–45 — [youtube-agent-notes-41-45.md](youtube-agent-notes-41-45.md)
+
+- [视频 41｜Mem0 + Ollama 本地记忆：一次 add 写入两条、嵌入仍走云端（Fahd Mirza）](youtube-agent-notes-41-45.md#41-install-mem0-with-ollama-locally---a-hands-on-tutorial) — 发布 2024-08-05
+- [视频 42｜MCP 安全全课：致命三件套与 OWASP MCP Top 10 检查表（freeCodeCamp）](youtube-agent-notes-41-45.md#42-mcp-security-fundamentals-course) — 发布 2026-10-22
+- [视频 43｜用编程 agent 经 CLI 建 LangSmith 在线评审（LangChain）](youtube-agent-notes-41-45.md#43-build-an-online-llm-as-a-judge-with-the-langsmith-cli-and-a-coding-agent) — 发布 2026-09-10
+- [视频 44｜LangSmith 聊天与 RAG 评估实作：四个评估器按「谁和谁比」拆（Krish Naik）](youtube-agent-notes-41-45.md#44-mastering-llm-chatbots-and-rag-evaluation-crash-course) — 发布 2026-03-02
+- [视频 45｜Langfuse 官方走查：从 trace 到 CI 发布门的工程闭环（Langfuse）](youtube-agent-notes-41-45.md#45-langfuse-walkthrough---full-demo-of-agent-tracing-evals-experiments-and-prompt-management) — 发布 2026-09-18
+
+### 视频 46–50 — [youtube-agent-notes-46-50.md](youtube-agent-notes-46-50.md)
+
+- [视频 46｜给 Deep Research Agent 上持久化：进程被杀也不重花钱（Temporal）](youtube-agent-notes-46-50.md#46-build-a-deep-research-agent--python-openai-temporal) — 发布 2026-02-26
+- [视频 47｜Pydantic：概率与确定之间的契约（Imad 4 Automation）](youtube-agent-notes-46-50.md#47-pydantic-explained-for-ai-engineers--pydantic-ai-agents) — 发布 2026-10-22
+- [视频 48｜n8n 无代码邮件 agent：三条工作流与一次真实的首测失败（Nate Herk）](youtube-agent-notes-46-50.md#48-how-to-create-an-ai-email-agent-with-n8n-no-code-step-by-step-tutorial) — 发布 2024-09-21
+- [视频 49｜Senior SWE-Bench：按维护者标准给编码 agent 打分（Snorkel AI）](youtube-agent-notes-46-50.md#49-senior-swe-bench-evaluating-coding-agents--snorkel-ai-reading-group) — 发布 2026-07-17
+- [视频 50｜Langfuse 自托管部署清单（AI 生成内容，画面不作证据）（Alex Hitt）](youtube-agent-notes-46-50.md#50-langfuse-github-explained-self-hosted-llm-observability-with-openai-tracing) — 发布 2026-10-22
+
+## 横向概念索引（全 50 条）
+
+同一概念在多条视频里反复出现时，按主题横着看比按编号顺着看更快。每组给出代表条目（链接直达该条笔记小节）：
+
+- **记忆与上下文**：记忆为何丢失 [11](youtube-agent-notes-11-15.md#视频-11--why-ai-agents-forgetclaude-certified-architect-ep-18)、上下文工程 [12](youtube-agent-notes-11-15.md#视频-12--context-engineering-for-agentslangchain)、Letta 记忆工具 [13](youtube-agent-notes-11-15.md#视频-13--the-memory-tool-letta-agents-that-redesign-their-own-architecture)、Mem0 本地记忆与版本史读法 [41](youtube-agent-notes-41-45.md#41-install-mem0-with-ollama-locally---a-hands-on-tutorial)
+- **框架横评与编排**：五种编排模式 [2](youtube-agent-notes-1-5.md#视频-2every-claude-code-workflow-explained--when-to-use-each)、平台横评 [6](youtube-agent-notes-6-10.md#视频-6ai-agents-explained-how-to-create-and-use-ai-agents-in-2026)、Anthropic 可组合模式 [8](youtube-agent-notes-6-10.md#视频-8how-to-build-ai-agents-that-actually-work) 与 [18](youtube-agent-notes-16-20.md#18-building-more-effective-ai-agents)、框架五连（OpenAI Agents SDK / smolagents / CrewAI / AutoGen / Google ADK）[31–35](youtube-agent-notes-31-35.md)、DSPy 把提示当程序编译 [40](youtube-agent-notes-36-40.md)
+- **工具与协议**：MCP 两分钟上手 [20](youtube-agent-notes-16-20.md#20-mcp-server-explained--built-fastapi-to-mcp-in-just-2-lines)、MCP 安全全课 [42](youtube-agent-notes-41-45.md#42-mcp-security-fundamentals-course)、A2A 协议 [39](youtube-agent-notes-36-40.md)、浏览器操作 browser-use [38](youtube-agent-notes-36-40.md)
+- **结构化输出与校验**：Pydantic 边界契约 [47](youtube-agent-notes-46-50.md#47-pydantic-explained-for-ai-engineers--pydantic-ai-agents)、DSPy 的签名与编译 [40](youtube-agent-notes-36-40.md)、函数签名即工具定义在 [33](youtube-agent-notes-31-35.md) 与 [48](youtube-agent-notes-46-50.md#48-how-to-create-an-ai-email-agent-with-n8n-no-code-step-by-step-tutorial) 的两种实现
+- **评估与基准**：LangSmith 在线评审 [43](youtube-agent-notes-41-45.md#43-build-an-online-llm-as-a-judge-with-the-langsmith-cli-and-a-coding-agent)、聊天与 RAG 四评估器 [44](youtube-agent-notes-41-45.md#44-mastering-llm-chatbots-and-rag-evaluation-crash-course)、Senior SWE-Bench 的品味评分 [49](youtube-agent-notes-46-50.md#49-senior-swe-bench-evaluating-coding-agents--snorkel-ai-reading-group)
+- **观测与追踪**：Langfuse 官方全景 [45](youtube-agent-notes-41-45.md#45-langfuse-walkthrough---full-demo-of-agent-tracing-evals-experiments-and-prompt-management)、Langfuse 自托管运维 [50](youtube-agent-notes-46-50.md#50-langfuse-github-explained-self-hosted-llm-observability-with-openai-tracing)、LangSmith 的 trace 与实验 [43](youtube-agent-notes-41-45.md#43-build-an-online-llm-as-a-judge-with-the-langsmith-cli-and-a-coding-agent) / [44](youtube-agent-notes-41-45.md#44-mastering-llm-chatbots-and-rag-evaluation-crash-course)
+- **安全**：提示注入不可过滤 [15](youtube-agent-notes-11-15.md#视频-15--why-prompt-injection-cant-be-filtered-away)、MCP 致命三件套与 Top 10 [42](youtube-agent-notes-41-45.md#42-mcp-security-fundamentals-course)、browser-use 的敏感信息隔离 [38](youtube-agent-notes-36-40.md)、基准的运行时反作弊 [49](youtube-agent-notes-46-50.md#49-senior-swe-bench-evaluating-coding-agents--snorkel-ai-reading-group)
+- **持久化与生产**：Temporal 持久化深度研究 [46](youtube-agent-notes-46-50.md#46-build-a-deep-research-agent--python-openai-temporal)、Managed Agents 托管运行 [23](youtube-agent-notes-21-25.md#23-claude-managed-agents-explained-by-example)、Langfuse 自托管 [50](youtube-agent-notes-46-50.md#50-langfuse-github-explained-self-hosted-llm-observability-with-openai-tracing)
+- **语音与多模态**：LiveKit 语音管家 JARVIS [37](youtube-agent-notes-36-40.md)
+- **无代码与低代码**：n8n 三条工作流拼 agent [48](youtube-agent-notes-46-50.md#48-how-to-create-an-ai-email-agent-with-n8n-no-code-step-by-step-tutorial)、Vercel AI SDK 客服 agent [36](youtube-agent-notes-36-40.md)
+- **研究型 agent**：LangGraph 深度研究 [24](youtube-agent-notes-21-25.md#24-i-built-a-deep-research-ai-agent-with-langgraph)、Temporal 版深度研究 [46](youtube-agent-notes-46-50.md#46-build-a-deep-research-agent--python-openai-temporal)、多 agent 监督者模式 [29](youtube-agent-notes-26-30.md#29-how-to-build-multi-ai-agents-with-langgraph)
+- **自我改进**：随时间变强的 agent [30](youtube-agent-notes-26-30.md#30-how-to-build-agents-that-improve-over-time-model-harness-context)、Letta 自我重构 [13](youtube-agent-notes-11-15.md#视频-13--the-memory-tool-letta-agents-that-redesign-their-own-architecture)
+
 ## 每条笔记的结构
 
 七个固定部分：① 元信息（含发布时间）② 一句话结论 + 3 句摘要 ③ 技巧总结（每条带我的反驳性思考，外加一条「时效性」评估）④ 按章节的详细笔记 ⑤ 原样保留区（公式、代码、步骤不压缩；代码实跑核对、跑不了的标「未实测」）⑥ 术语表 ⑦ 易错点和存疑点。
@@ -98,9 +131,13 @@ AI 工具迭代很快，三个月前的技巧可能已经拖后腿。所以每�
 - 视频 24 没有配套仓库，代码证据全部来自播放器画面，证据等级低于其他条目，笔记中已注明。
 - 视频 26 是访谈节目，标题问题在节目结尾没有给出是或否的结论；笔记按两位出场者各自的原话记录，不替节目下结论。视频中的价格数字为节目口径，未做外部核价。
 - 视频 28 的终端会话是作者为清晰而重做的演示（视频自述），不是原始执行日志；笔记已在对应条目标注。
+- 视频 41 是 2024 年的版本状态：其核心限制（嵌入必须用 OpenAI）已被现行 Mem0 修复，笔记按版本史读法处理，引用时须带年份。
+- 视频 48 的 Pinecone namespace 名与收件人姓氏在字幕与画面之间无法定案，笔记分别标未决与推断；视频 50 是 AI 生成内容、画面为动画素描，笔记已把证据等级单独标明，其事实改引官方仓库与第 45 条。
+- 视频 42、45 的多数幻灯片正文与界面小字不可读，笔记以口述与可读画面为准；视频 42 的事件与统计数字除 Postmark 案外未逐一外查，视频 44 的实验分数在画面与仓库两处都无法定案，均已在各条笔记的存疑点中标明。
 
 ## 状态
 
 - 第一批：视频 1–10，2026-10-31 完成并逐条核验。
 - 第二批：视频 11–30，2026-11-01 完成并逐条核验。
+- 第三批：视频 31–50，2026-11-01 完成并逐条核验。
 - 后续有新的视频批次时，按同样的标准追加新文档，并在本页目录补上链接。
