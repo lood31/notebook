@@ -1,10 +1,10 @@
 # notebook
 
-我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 75 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
+我看 YouTube 学 AI agent 技巧时做的核验型笔记：一共 80 条视频，每条都不是「看完凭印象记」，而是播放器实播、字幕逐段读、代码实跑、说法逐项查证之后才落笔。
 
-![videos](https://img.shields.io/badge/视频-75条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--03-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
+![videos](https://img.shields.io/badge/视频-80条-blue) ![verified](https://img.shields.io/badge/核验-2026--11--03-green) ![format](https://img.shields.io/badge/格式-Markdown-lightgrey)
 
-**一句话证据**：75 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径；第二组里 JARVIS 仓库的人写测试同样倒在导入上——第一行就把常量名拼错。第三组把一条 2024 年的 Mem0 教程与现行官方文档对照：视频里「嵌入离不开 OpenAI」的核心限制如今已被官方修复，教程标题写的「本地」在当时只成立一半；另一堂 LangSmith 评估课则被配套仓库救了回来——画面里读不清的代码、连数据源是哪三篇博客，都由仓库原文逐项解明。第四组里 Pydantic 的两个模型类被拿来在本地按现行版本实跑：坏输入与总额对不上的发票都被正确拦下；一条只有动画素描的 AI 生成「部署教程」则被官方现行 compose 文件反向核对——流程属实、画面不作数，全部写进笔记。第四批收尾两组继续同规：一条四分钟手写评测片的仓库被实际运行测试，旁白与简介打架的测试计数当场以 53 个全过的实跑结果定案；一条 DeepEval 长课里「分数变好」的真相被翻出来是把量尺改松，已与真实修复分开标注；Phoenix 的埋点调用在仓库代码里逐字核同；团队协作组里，Agent Teams 直播的计划文件被克隆下来逐章核对——连「lead 在拉起队友之前先发布契约」都白纸黑字在计划里，而一条被侦察摘要讲成「并行失败复盘」的发布讲解，经全片扫读后证实根本没有那些数字，已在笔记里更正。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
+**一句话证据**：80 条视频的时长全部由播放器实测；有配套仓库的逐个克隆对照——Claude Code hooks 的拦截函数离线实跑、TypeScript coding agent 的仓库测试实跑 22/22 通过、Managed Agents 的离线测试通过且演示数字拿原始 CSV 独立复算、RAG 源码与画面逐字一致。第三批首组把 CrewAI 仓库里一次真实运行的产物拿来实跑：它生成的测试文件连导入都过不了，当场拆穿「全自动保质量」的简介口径；第二组里 JARVIS 仓库的人写测试同样倒在导入上——第一行就把常量名拼错。第三组把一条 2024 年的 Mem0 教程与现行官方文档对照：视频里「嵌入离不开 OpenAI」的核心限制如今已被官方修复，教程标题写的「本地」在当时只成立一半；另一堂 LangSmith 评估课则被配套仓库救了回来——画面里读不清的代码、连数据源是哪三篇博客，都由仓库原文逐项解明。第四组里 Pydantic 的两个模型类被拿来在本地按现行版本实跑：坏输入与总额对不上的发票都被正确拦下；一条只有动画素描的 AI 生成「部署教程」则被官方现行 compose 文件反向核对——流程属实、画面不作数，全部写进笔记。第四批收尾两组继续同规：一条四分钟手写评测片的仓库被实际运行测试，旁白与简介打架的测试计数当场以 53 个全过的实跑结果定案；一条 DeepEval 长课里「分数变好」的真相被翻出来是把量尺改松，已与真实修复分开标注；Phoenix 的埋点调用在仓库代码里逐字核同；团队协作组里，Agent Teams 直播的计划文件被克隆下来逐章核对——连「lead 在拉起队友之前先发布契约」都白纸黑字在计划里，而一条被侦察摘要讲成「并行失败复盘」的发布讲解，经全片扫读后证实根本没有那些数字，已在笔记里更正。每条笔记末尾都有「存疑点」，查不到的东西明说查不到，不拿猜测冒充原文。
 
 ## 目录
 
@@ -130,7 +130,15 @@
 - [视频 74｜Sandcastle 的 agent 工厂：只分发未卡住的任务、专职 merger 串行合并（Matt Pocock）](youtube-agent-notes-71-75.md#74-i-open-sourced-my-own-afk-software-factorymatt-pocock) — 发布 2026-04-30
 - [视频 75｜Agent Teams 实况搭建：先消歧写计划、lead 发布契约再拉起队友（Cole Medin）](youtube-agent-notes-71-75.md#75-how-to-properly-use-claude-code-agent-teams-full-live-buildcole-medin) — 发布 2026-02-16
 
-## 横向概念索引（全 75 条）
+### 视频 76–80 — [youtube-tech-stack-notes-76-80.md](youtube-tech-stack-notes-76-80.md)
+
+- [视频 76｜技术栈三层拆法与过度工程对照：先有体验再谈规模（Fireship）](youtube-tech-stack-notes-76-80.md#76-how-to-over-engineer-a-website--what-is-a-tech-stackfireship) — 发布 2021-09-24
+- [视频 77｜T3 栈三小时完整实作：类型三段贯穿、默认鉴权被换成托管（Theo - t3.gg）](youtube-tech-stack-notes-76-80.md#77-t3-stack-tutorial---from-0-to-prod-for-0theo---t3gg) — 发布 2023-03-23
+- [视频 78｜AI 编程在用栈自述：平台/agent/后端/自动化四层，金句数字全是自报（Kev Builds Apps）](youtube-tech-stack-notes-76-80.md#78-the-only-tech-stack-you-need-for-ai-coding--vibe-marketing-in-2026kev-builds-apps) — 发布 2025-11-12
+- [视频 79｜Choose Boring Technology：创新代币预算与无聊技术的已知失败模式（Dan McKinley 原作，第三方朗读版）](youtube-tech-stack-notes-76-80.md#79-choose-boring-technologydan-mckinley-原作gringodotdev-朗读版) — 原作 2015 年；朗读版上传 2023-12-14
+- [视频 80｜开发工具创业课：选型只占 13 秒，标准是团队既有专长与迭代速度（Y Combinator）](youtube-tech-stack-notes-76-80.md#80-how-to-start-a-dev-tools-companyy-combinator--nicolas-dessaigne) — 发布 2024-11-26
+
+## 横向概念索引（全 80 条）
 
 同一概念在多条视频里反复出现时，按主题横着看比按编号顺着看更快。每组给出代表条目（链接直达该条笔记小节）：
 
@@ -138,6 +146,7 @@
 - **框架横评与编排**：五种编排模式 [2](youtube-agent-notes-1-5.md#视频-2every-claude-code-workflow-explained--when-to-use-each)、平台横评 [6](youtube-agent-notes-6-10.md#视频-6ai-agents-explained-how-to-create-and-use-ai-agents-in-2026)、Anthropic 可组合模式 [8](youtube-agent-notes-6-10.md#视频-8how-to-build-ai-agents-that-actually-work) 与 [18](youtube-agent-notes-16-20.md#18-building-more-effective-ai-agents)、框架五连（OpenAI Agents SDK / smolagents / CrewAI / AutoGen / Google ADK）[31–35](youtube-agent-notes-31-35.md)、DSPy 把提示当程序编译 [40](youtube-agent-notes-36-40.md)、Claude Agent SDK 的循环与工具分工 [51](youtube-agent-notes-51-55.md#51-claude-agent-sdk-full-workshop--thariq-shihipar-anthropic)、Microsoft Agent Framework [52](youtube-agent-notes-51-55.md#52-microsoft-agent-framework-tutorial-2025--complete-coursekodekloud)、OpenAI Agents SDK 进阶部件（handoffs / 护栏 / 审批）[53](youtube-agent-notes-51-55.md#53-openai-agents-sdk-crash-course--agent-workflows-in-pythonneuralnine)、AG2 的多智能体递进 [56](youtube-agent-notes-56-60.md#56-genai--agentic-ai--video-9--auto-genvenkata-reddy-ai-classes)
 - **编码 agent 与并行重构**：手写编码 agent [22](youtube-agent-notes-21-25.md#22-building-a-coding-agent)、Claude Code 实作与抓虫 [28](youtube-agent-notes-26-30.md#28-claude-code-in-20-minutes-build-a-real-app-and-catch-its-bugs)、并行 agent 大规模重构（拆分、隔离、PR 汇总）[58](youtube-agent-notes-56-60.md#58-automating-large-scale-refactors-with-parallel-agents--robert-brennan-openhands)、SWE-agent 的 ACI 与消融 [60](youtube-agent-notes-56-60.md#60-neurips-hacker-cup-ai-sweagentcoreweave)、agent 工厂的筛选分发与串行合并 [74](youtube-agent-notes-71-75.md#74-i-open-sourced-my-own-afk-software-factorymatt-pocock)、Agent Teams 的契约先行与新上下文执行 [75](youtube-agent-notes-71-75.md#75-how-to-properly-use-claude-code-agent-teams-full-live-buildcole-medin)
 - **团队协作与整合**：人类团队的标准流水线（短分支、小 PR、约定式提交）[71](youtube-agent-notes-71-75.md#71-git-team-workflow-pull-requests-conventional-commits-best-practices--git-for-engineers-10code--test-automation)、主干开发的真实团队数据与评审目的共识 [72](youtube-agent-notes-71-75.md#72-we-tried-trunk-based-development-the-results-were-shockingmodern-software-engineering)、契约先行让前后端不等不猜 [73](youtube-agent-notes-71-75.md#73-28-openapi-the-universal-contract-between-clients-and-serverssriniously)、并行实现串行合并 [74](youtube-agent-notes-71-75.md#74-i-open-sourced-my-own-afk-software-factorymatt-pocock)、开工前消歧与计划驱动的 agent 团队 [75](youtube-agent-notes-71-75.md#75-how-to-properly-use-claude-code-agent-teams-full-live-buildcole-medin)
+- **技术栈选型**：栈的三层拆法与过度工程的识别信号 [76](youtube-tech-stack-notes-76-80.md#76-how-to-over-engineer-a-website--what-is-a-tech-stackfireship)、类型贯穿与默认件可替换的一套完整栈实作 [77](youtube-tech-stack-notes-76-80.md#77-t3-stack-tutorial---from-0-to-prod-for-0theo---t3gg)、个人开发者在用栈的四层清点法 [78](youtube-tech-stack-notes-76-80.md#78-the-only-tech-stack-you-need-for-ai-coding--vibe-marketing-in-2026kev-builds-apps)、创新代币预算与已知失败模式定价 [79](youtube-tech-stack-notes-76-80.md#79-choose-boring-technologydan-mckinley-原作gringodotdev-朗读版)、按团队既有专长选、标准是迭代速度 [80](youtube-tech-stack-notes-76-80.md#80-how-to-start-a-dev-tools-companyy-combinator--nicolas-dessaigne)
 - **Skills 与渐进披露**：Claude Code Skills 的写法 [17](youtube-agent-notes-16-20.md)、把 Skills 装进任何 agent（三层披露 + 动态系统提示）[54](youtube-agent-notes-51-55.md#54-claude-skills-arent-just-for-claude--heres-how-to-build-them-for-any-agentcole-medin)
 - **个人助理与通道**：住在 iMessage 的六件套助理 [55](youtube-agent-notes-51-55.md#55-i-built-my-own-ai-agent-in-imessage-like-dots-grok-bot--musekristian)、LiveKit 语音管家 [37](youtube-agent-notes-36-40.md)
 - **工具与协议**：MCP 两分钟上手 [20](youtube-agent-notes-16-20.md#20-mcp-server-explained--built-fastapi-to-mcp-in-just-2-lines)、MCP 安全全课 [42](youtube-agent-notes-41-45.md#42-mcp-security-fundamentals-course)、A2A 协议 [39](youtube-agent-notes-36-40.md)、浏览器操作 browser-use [38](youtube-agent-notes-36-40.md)、Agents SDK 经 MCP 接文件系统 [53](youtube-agent-notes-51-55.md#53-openai-agents-sdk-crash-course--agent-workflows-in-pythonneuralnine)、为模型定制的界面 ACI [60](youtube-agent-notes-56-60.md#60-neurips-hacker-cup-ai-sweagentcoreweave)、MCP 客户端 OAuth 全流程 [61](youtube-agent-notes-61-65.md#61-mcp-oauth-client-side-discovery-cimd-pkce-and-step-upaislabs-ai)、MCP 服务器认证四法 [62](youtube-agent-notes-61-65.md#62-mcp-authentication-in-nodejs-4-methods-explainedthe-debug-arena)、Docker MCP 目录与网关 [63](youtube-agent-notes-61-65.md#63-stop-sharing-api-keys-with-llms---use-docker-mcp-catalog-insteadpython-simplified)、AG-UI 事件流协议 [65](youtube-agent-notes-61-65.md#65-agentic-ux-three-ways-to-let-an-agent-build-its-own-uimastra)、OpenAPI 契约与契约测试 [73](youtube-agent-notes-71-75.md#73-28-openapi-the-universal-contract-between-clients-and-serverssriniously)
@@ -202,6 +211,11 @@ AI 工具迭代很快，三个月前的技巧可能已经拖后腿。所以每�
 - 视频 73 无讲者自有示例仓库（侦察口径已纠正）；演示规范版本为 3.1.1，与讲者所称现行 3.2.0 已分开标注；讲者口头的规范行数未核对。
 - 视频 74 不是失败复盘：侦察摘要的并行失败数字与案例均不存在，已在定案与笔记中更正；依赖判断为模型判断、无形式化依赖图；仓库只读核查未实跑。
 - 视频 75 的片头余额画面与结尾演示对不上、讲者口述的 agent 总数两说并存，均已标为未核实；WSL 崩溃后 agent 是否继续工作为讲者口述；仓库分支只读核查未实跑。
+- 视频 76 无配套代码仓库，部件清单来自口播与画面图示，档位定为 C；片中玩笑缩写的具体所指有几个未能辨认，笔记未补写。
+- 视频 77 的链接实际内容是三小时教程而非原始短介绍（侦察口径已纠正）；中段章节为标题级归纳、未逐段试听，转写面板全文未能加载；配套仓库只做了依赖清单核对，应用需外部服务未在本机运行；教程为 2023 年口径（Pages Router 与当时服务定价），跟做须以更新版与当前文档为准。
+- 视频 78 无配套材料，档位定为 C；三段中只有第一段切题，后两段仅作范围标注；全部金额为讲者自报且分项与总额加总不一致，笔记只记录说法不采信；字幕中三个工具名无法辨认，未写入正文。
+- 视频 79 不存在官方演讲录像，本条为第三方朗读版（已显著披露），内容以 2015 年原文为准据；演讲的两条出处记录（OSCON 与维基媒体基金会内部活动）日期一有一无，不可合并；朗读者插入的个人评论已排除。
+- 视频 80 无配套材料，档位定为 C；与选型直接相关的段落只有约 13 秒（14:59–15:12），笔记按全课结构记录、引用时不放大其分量；课中趋势与比例说法为讲者经验口径。
 
 ## 状态
 
@@ -209,4 +223,5 @@ AI 工具迭代很快，三个月前的技巧可能已经拖后腿。所以每�
 - 第二批：视频 11–30，2026-11-01 完成并逐条核验。
 - 第三批：视频 31–50，2026-11-01 完成并逐条核验。
 - 第四批：视频 51–75，2026-11-03 完成并逐条核验（第五组 71–75 为「团队协作」专题，用户追加）。
+- 第五批：视频 76–80（「技术栈选型」专题，用户追加），2026-11-03 完成并逐条核验。
 - 后续有新的视频批次时，按同样的标准追加新文档，并在本页目录补上链接。
